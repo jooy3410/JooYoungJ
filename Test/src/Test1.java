@@ -4,17 +4,27 @@ public class Test1 {
 	public static void main(String[] args) {
 		int i,k;
 		
-		for(i=2;i<=8;i++) {
+		i=2;
+		k=1;
+		
+		while(i<=9) {
 			if(i==3 || i==5) {
-			System.out.println("<"+i+"´Ü>");
+				System.out.println("<"+i+"´Ü>");
 			}
-			for(k=1;k<=9;k++) {
+			
+			
+			while(k<=9) {
 				System.out.printf("%d*%d=%d\n", i,k,(i*k));
-				}
+				k++;
+				
+			}                      
+			k=1;
+			i++;
 			System.out.printf("\n");
 			
 		}
 
 	}
-
 }
+
+
