@@ -13,6 +13,7 @@ public class Arraylist {
 		
 		int a=1;
 		
+		
 		Iterator<String> it= li. iterator();
 		if(a==1) {
 			System.out.println("<"+it.next()+">");
