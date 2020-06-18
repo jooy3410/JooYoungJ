@@ -34,9 +34,6 @@ public class Map {
 			rmap=null;
 		}
 		
-		
-		
-
 	}
 
 }
