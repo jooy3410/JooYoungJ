@@ -2,12 +2,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class Test8 {
 
 	public static void main(String[] args) {
-		List<HashMap<String,String>> rList=new ArrayList<>();
-		HashMap<String,String> pMap=new HashMap<>();
+		List<Map<String,String>> rList=new ArrayList<>();
+		Map<String,String> pMap=new HashMap<>();
 		pMap.put("name", "가나다");
 		pMap.put("email", "가나다@");
 		rList.add(pMap);
@@ -19,9 +20,9 @@ public class Test8 {
 		rList.add(pMap);
 		pMap=null;
 		
-		Iterator<HashMap<String,String>> it = rList.iterator();
+		Iterator<Map<String,String>> it = rList.iterator();
 		while (it.hasNext()) {
-		HashMap<String,String> rMap=it.next();
+		Map<String,String> rMap=it.next();
 		
 		System.out.println("name : " + rMap.get("name"));
 		System.out.println("email : " + rMap.get("email"));
