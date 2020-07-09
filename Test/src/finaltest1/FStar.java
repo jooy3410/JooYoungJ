@@ -3,7 +3,7 @@ package finaltest1;
 public class FStar {
 
 	public static void main(String[] args) {
-int j=4;
+		int j=4;
 		
 		for(int i=1; i<=7; i++) {
 			for(int k=1; k<=4; k++) {
@@ -20,7 +20,6 @@ int j=4;
 			}
 			System.out.println();
 		}
-
 	}
 
 }
