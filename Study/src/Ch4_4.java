@@ -20,9 +20,10 @@ public class Ch4_4 {
 		}else if(score >= 70) {
 			grade = 'C';
 			//score가 80점보다 같거나 크면 C학점
-		}else if(score >= 60) {
+		}else {
 			grade = 'D';
 			//나머지는 D학점
+			//else 블럭 생략가능
 		}
 		System.out.println("당신의 학점은"+grade+"입니다.");
 
