@@ -15,6 +15,7 @@ public class T0908 {
 		
 		pmap.put("name", "가나다");
 		pmap.put("email", "가나다@");
+		pmap.put("e", "a");
 		
 		bList.add(pmap);
 		
@@ -24,6 +25,7 @@ public class T0908 {
 		
 		pmap.put("name", "abc");
 		pmap.put("email", "abc@");
+		pmap.put("e", "b");
 		
 		bList.add(pmap);
 		
@@ -35,6 +37,7 @@ public class T0908 {
 					
 			System.out.println("name : "+ amap.get("name"));
 			System.out.println("email :" + amap.get("email"));
+			System.out.println("e :" + amap.get("e"));
 			
 			amap=null;
 			System.out.println();
