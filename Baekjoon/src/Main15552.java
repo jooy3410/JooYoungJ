@@ -22,8 +22,6 @@ public class Main15552 {
         
         bw.flush();
         bw.close();
-		
-
 	}
 
 }
